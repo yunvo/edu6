@@ -5,13 +5,17 @@
 ├── base
 │   ├── service.yaml
 │   ├── deployment.yaml
-│   ├── ingress.yaml
 │   ├── kustomization.yaml
 └── overlays
-    └── dev
-        ├── configmap.yaml
+    └── development
+       ├── kustomization.yaml
+        └── cpu_count.yaml
+        └── replica_count.yaml
+    └── production
         ├── kustomization.yaml
-        └── secret.yaml
+        └── cpu_count.yaml
+        └── replica_count.yaml
+
 ```
 ## build
 ```sh
