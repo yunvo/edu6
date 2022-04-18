@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mynginx
+spec:
+  template:
+    spec:
+      containers:
+      - name: mynginx
+        resources:
+          limits: 
+            cpu: 500m
