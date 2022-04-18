@@ -2,19 +2,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mynginx
+  name: edu6
 spec:
   replicas: 1
   selector:
     matchLabels:
-      run: mynginx
+      run: edu6
   template:
     metadata:
       labels:
-        run: mynginx
+        run: edu6
     spec:
       containers:
-      - image: nginx
-        name: mynginx
+      - image: edu6
+        name: shclub/edu4
         ports:
         - containerPort: 80
