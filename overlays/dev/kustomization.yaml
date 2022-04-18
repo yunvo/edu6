@@ -5,7 +5,7 @@ images:
   newName: alpine # <==== 신규 image name 
   newTag: 3.6 # <==== 신규 tag information
 patches:
-- relica-count.yaml
-- cpu-count.yaml
+- relica_count.yaml
+- cpu_count.yaml
 resources:
 - ../../base
