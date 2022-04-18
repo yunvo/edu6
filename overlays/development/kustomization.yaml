@@ -4,6 +4,9 @@ images:
 - name: nginx
   newName: alpine # <==== 신규 image name 
   newTag: 3.6 # <==== 신규 tag information
+namePrefix: dev-
+commonLabels:
+  variants: development
 patches:
 - relica_count.yaml
 - cpu_count.yaml
