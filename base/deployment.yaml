@@ -16,4 +16,4 @@ spec:
       - name: edu6
         image: shclub/edu4
         ports:
-        - containerPort: 80
+        - containerPort: 5000
