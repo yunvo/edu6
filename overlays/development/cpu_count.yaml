@@ -8,5 +8,5 @@ spec:
       containers:
       - name: edu6
         resources:
-            limits: 
-              cpu: 300m
+          limits: 
+            cpu: 300m
