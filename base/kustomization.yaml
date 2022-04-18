@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - service.yaml
-configMapGenerator:
-- name: nginx-map
-  literals:
-  - env: development
+#configMapGenerator:
+#- name: nginx-map
+#  literals:
+#  - env: development
