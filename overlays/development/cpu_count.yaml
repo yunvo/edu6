@@ -9,4 +9,4 @@ spec:
       - name: edu6
         resources:
           limits: 
-            cpu: 300m
+            cpu: "300m"
