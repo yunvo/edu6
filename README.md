@@ -1,0 +1,2 @@
+# edu6
+kustomize
