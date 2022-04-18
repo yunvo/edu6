@@ -1,13 +1,13 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
+ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: shclub/edu4
-  newTag: v2 # <==== 신규 tag information
-namePrefix: prod-
-commonLabels:
-  variants: production
-patches:
-- relica_count.yaml
-- cpu_count.yaml
-resources:
+  newTag: v2 
+namePrefix: prd-
+#commonLabels:
+#  variants: development
+bases:
 - ../../base
+patchesStrategicMerge:
+- replica_count.yaml
+- cpu_count.yaml
