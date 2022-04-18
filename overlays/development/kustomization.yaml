@@ -7,10 +7,8 @@ images:
 namePrefix: dev-
 commonLabels:
   variants: development
-bases:
-  - ../../base
+resources:
+- ../../base
 patchesStrategicMerge:
-  - relica_count.yaml
-  - cpu_count.yaml
-#resources:
-#- ../../base
+- relica_count.yaml
+- cpu_count.yaml
