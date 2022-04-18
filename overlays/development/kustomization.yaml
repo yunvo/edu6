@@ -10,5 +10,5 @@ namePrefix: dev-
 bases:
 - ../../base
 patchesStrategicMerge:
-- relica_count.yaml
+- replica_count.yaml
 - cpu_count.yaml
