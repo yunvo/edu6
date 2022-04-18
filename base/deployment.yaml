@@ -14,7 +14,7 @@ spec:
         run: edu6
     spec:
       containers:
-      - image: edu6
-        name: shclub/edu4
+#      - image: edu6
+#        name: shclub/edu4
         ports:
         - containerPort: 80
